@@ -1,0 +1,121 @@
+.cai{
+    text-align:center;
+      }
+      ul{
+      list-style-type:none;
+      contain:0;
+      padding:0; 
+      
+      }
+      li{
+       border:2px solid #AFEEEE;
+       display:inline-block;
+       contain:0.5rem;
+        
+      }
+      a{
+       text-decoration:none;
+       background-color:#427ad4;
+       color:#87CEEB;
+       padding:0.5rem;
+       display:block;
+      
+      }
+      a:hover{
+       background-color:#c3d6ae;
+       color:#A9A9A9;
+      }
+    body {
+    background:orange;
+    }
+    
+    
+    h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    width: 100%;
+    }
+    h3 {
+        color: green;
+        line-height: 1em;
+        text-align: left;
+        width: 90%;
+        font-size: 35px;
+        }
+    h4 {
+        color: green;
+        line-height: 1em;
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+        }
+    h5 {
+        color: green;
+        line-height: 1em;
+        text-align: left;
+        width: 90%;
+        font-size: 35px;
+        }
+    .byline {
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    }
+    
+    .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-style: italic;
+    line-height: 34px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    width: 90%;
+    }
+    
+    .content {
+    padding: 40px;
+    }
+    
+    
+    table, th, td {
+      border:1px solid black;
+    }
+    
+    .image {
+    background-image: green("1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    }
+    
+    
+    
+    .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+    }
+    footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 100%;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;  
+    } 
+    
